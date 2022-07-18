@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&family=Roboto');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Work Sans', 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    /* border: 2px solid red; */
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-logo {
+    /* border: 2px solid green; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links {
+    /* border: 2px solid purple; */
+
+    display: flex;
+    gap: 16px;
+}
+
+.footer {
+    background-color: rgb(230, 230, 230);
+    height: 64px;
+    text-align: center;
+    margin-top: auto;
+    padding: 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
