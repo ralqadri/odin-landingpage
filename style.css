@@ -24,10 +24,18 @@ a {
     text-decoration: none;
 }
 
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #CA4E79;
+  border: 2px solid #db5684;
+  color: #f9faf8;
+  font-weight: bold;
+}
 
 .header {
     height: 64px;
-    background-color: #513252;
+    background-color: #7A4069;
 
     display: flex;
     justify-content: space-around;
@@ -62,7 +70,7 @@ a {
 }
 
 .hero {
-    background-color: #513252;
+    background-color: #7A4069;
     height: 450px;
     padding: 36px 64px;
 
@@ -103,7 +111,7 @@ a {
 
 .hero-maintext {
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 800;
     color: #f9faf8;
     margin-bottom: 12px;
 }
@@ -114,14 +122,50 @@ a {
     margin-bottom: 12px;
 }
 
+.info {
+    background: #CA4E79;
+    color: #f9faf8;
+    padding: 36px 64px;
+    display: flex;
+    flex-direction: column;
+}
 
-button {
-  padding: 8px 16px;
-  border-radius: 8px;
-  background-color: #CA4E79;
-  border: 2px solid #db5684;
-  color: #f9faf8;
-  font-weight: bold;
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-items {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.item {
+    padding: 6px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 26px 0px rgba(255,255,255,0.44);
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(255,255,255,0.44);
+    -moz-box-shadow: 0px 0px 26px 0px rgba(255,255,255,0.44);
+}
+
+.album-artist {
+    font-weight: 600;
 }
 
 .footer {
