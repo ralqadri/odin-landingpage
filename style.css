@@ -57,14 +57,14 @@ a {
 
 .content {
     display: flex;
+    flex-direction: column;
     flex: 1 1 auto;
 }
 
 .hero {
-    /* border: 3px solid blue; */
     background-color: #513252;
-    height: 350px;
-    padding: 36px 128px;
+    height: 450px;
+    padding: 36px 64px;
 
     display: flex;
     justify-content: center;
@@ -74,16 +74,13 @@ a {
 .hero-information, .hero-image {
     /* border: 2px solid red; */
     margin-top: 36px;
-    overflow: visible;
+    overflow: clip;
     display: flex;
     flex-flow: column wrap;
 }
 
 .hero-information {
-    padding-inline-start: px;
-    width: 100px;
-    flex-grow: 1;
-    flex-shrink: 0;
+    flex: 1 0 100px;
 }
 
 .hero-image {
@@ -108,7 +105,6 @@ a {
     font-size: 48px;
     font-weight: 700;
     color: #f9faf8;
-    text-shadow: 0px 2px 10px rgba(0,0,0,0.45);
     margin-bottom: 12px;
 }
 
@@ -118,6 +114,7 @@ a {
     margin-bottom: 12px;
 }
 
+
 button {
   padding: 8px 16px;
   border-radius: 8px;
@@ -126,7 +123,6 @@ button {
   color: #f9faf8;
   font-weight: bold;
 }
-
 
 .footer {
     background-color: #3b243b;
