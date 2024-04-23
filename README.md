@@ -1,5 +1,5 @@
-# Landing Page
-A project for [The Odin Project](https://www.theodinproject.com/)'s CSS Foundations/Flexbox Curriculum named [Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page).
+# odin-landingpage
+A project for [The Odin Project](https://www.theodinproject.com/)'s CSS Foundations/Flexbox Curriculum, [Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page).
 
 # Live demo
 Access the live demo here: https://ralqadri.github.io/odin-landingpage/
